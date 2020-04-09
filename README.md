@@ -5,3 +5,5 @@
 ## Preview 🎉
 
 <https://piecioshka.github.io/microphone-volume-level-monitor/>
+
+![Demo](./demo.gif)
