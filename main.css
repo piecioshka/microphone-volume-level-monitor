@@ -16,13 +16,23 @@
         rgba(151, 190, 97, var(--opacity)) calc(100% - var(--yellow-limit)) 100%
     );
     position: relative;
+    border-radius: 2px;
 }
 
 .indicator {
     width: 80%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.3);
     background-attachment: fixed;
     position: absolute;
     bottom: 0;
     left: 10%;
+    border-radius: 2px;
+}
+
+.percent {
+    width: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 0;
 }
