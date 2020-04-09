@@ -1,5 +1,6 @@
 :root {
     --opacity: 0.6;
+    --radius: 0.2;
     --red-limit: 80%;
     --yellow-limit: 60%;
 }
@@ -16,7 +17,7 @@
         rgba(151, 190, 97, var(--opacity)) calc(100% - var(--yellow-limit)) 100%
     );
     position: relative;
-    border-radius: 2px;
+    border-radius: var(--radius);
 }
 
 .indicator {
@@ -26,7 +27,7 @@
     position: absolute;
     bottom: 0;
     left: 10%;
-    border-radius: 2px;
+    border-radius: var(--radius);
 }
 
 .percent {
