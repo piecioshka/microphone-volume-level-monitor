@@ -27,15 +27,21 @@ async function listen(cb) {
     }
 }
 
-function updateIndicator() {
-    const $inner = document.querySelector('.indicator');
-    return (average) => {
-        $inner.style.height = `${average}%`;
-    }
+function updateBarIndicator(average) {
+    const $el = document.querySelector('.indicator');
+    $el.style.height = `${average}%`;
+}
+
+function updateTextIndicator(average) {
+    const $el = document.querySelector('.percent');
+    $el.textContent = `${average}%`;
 }
 
 function main() {
-    listen(updateIndicator());
+    listen((percent) => {
+        updateBarIndicator(percent);
+        updateTextIndicator(percent);
+    });
 }
 
 main();
