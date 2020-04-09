@@ -1,6 +1,6 @@
 # microphone-volume-level-monitor
 
-Microphone volume level monitor in **JavaScript** with `getUserMedia`.
+🎙Microphone volume level monitor in **JavaScript** with `getUserMedia`.
 
 ## Preview 🎉
 
