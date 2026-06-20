@@ -7,3 +7,7 @@
 <https://piecioshka.github.io/microphone-volume-level-monitor/>
 
 ![Demo](./demo.gif)
+
+## License
+
+[The MIT License](http://piecioshka.mit-license.org) @ 2026
